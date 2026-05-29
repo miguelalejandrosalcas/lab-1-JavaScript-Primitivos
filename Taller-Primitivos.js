@@ -11,34 +11,40 @@ let valorNulo = null;
 
 console.log(sinValor);
 console.log(valorNulo);
-
+console.log();
 
 // Ingreso datos por teclado
 anioNacimiento = parseInt(prompt("Por favor digite el año en que nació: "));
 edad = 2026 - anioNacimiento;
 console.log(edad);
+console.log();
 num1 = parseInt(prompt("Por favor digite un número: "));
 num2 = parseInt(prompt("Por favor digite un número: "));
 suma = num1 + num2;
 console.log(suma);
-
+console.log();
 
 // Condicionales
 edad = parseInt(prompt("Por favor digite su edad: "));
 if (edad >= 18) {
     console.log("Puede entrar al lugar.");
+    console.log();
 } else {
     console.log("No puede entrar al lugar.");
+    console.log();
 }
 num1 = parseInt(prompt("Por favor digite un número: "));
 if (num1 > 0) {
-    console.log("El número ingresado es positivo")
+    console.log("El número ingresado es positivo");
+    console.log();
 }
 else if (num1 < 0) {
     console.log("El numero ingresado es negativo");
+    console.log();
 }
 else {
     console.log("El número ingresado es 0");
+    console.log();
 }
 
 // Bucle while
@@ -54,6 +60,7 @@ while (contrasena != 1234){
     contrasena = parseInt(prompt("Por favor digite su contraseña: "));
 }
 console.log("Contraseña correcta");
+console.log();
 // Bucle for
 for (i = 1; i <= 10; i++) {
     console.log(i);
