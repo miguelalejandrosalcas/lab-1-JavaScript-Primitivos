@@ -61,6 +61,7 @@ while (contrasena != 1234){
 }
 console.log("Contraseña correcta");
 console.log();
+
 // Bucle for
 for (i = 1; i <= 10; i++) {
     console.log(i);
